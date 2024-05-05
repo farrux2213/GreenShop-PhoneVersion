@@ -3,7 +3,7 @@ import Logo from "/Logo.svg";
 import Search from "/search.svg";
 import Shop from "/shop.svg";
 import { LoginOutlined } from "@ant-design/icons";
-import { Navbar } from "./Item";
+import { Navbar, Description } from "./Item";
 
 function App() {
   return (
@@ -41,6 +41,7 @@ function App() {
         </h1>
       </div>
       <Navbar></Navbar>
+      <Description></Description>
     </>
   );
 }

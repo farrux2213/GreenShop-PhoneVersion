@@ -138,5 +138,69 @@ const Navbar = () => {
     </div>
   );
 };
+const Description = () => {
+  return (
+    <>
+      <div className="w-4/5 h-[40px] m-auto mt-[80px] flex gap-[24px] border-b-2">
+        <h1 className="font-sans font-bold text-lg text-green-600 border-b-4 border-green-600">
+          Product Description
+        </h1>
+        <h2 className="font-sans text-base text-gray-800 font-normal">
+          Reviews (19)
+        </h2>
+      </div>
+      <p className="font-sans font-normal text-sm w-4/5 h-[75px] mt-[18px] m-auto text-gray-400">
+        The ceramic cylinder planters come with a wooden stand to help elevate
+        your plants off the ground. The ceramic cylinder planters come with a
+        wooden stand to help elevate your plants off the ground. Lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est
+        tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare
+        lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing
+        cursus eu, suscipit id nulla.
+      </p>
+      <p className="font-sans font-normal text-sm w-4/5 h-[75px] mt-[18px] m-auto text-gray-400">
+        Pellentesque aliquet, sem eget laoreet ultrices, ipsum metus feugiat
+        sem, quis fermentum turpis eros eget velit. Donec ac tempus ante. Fusce
+        ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate,
+        sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et
+        placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio quis
+        mi. Cras neque metus, consequat et blandit et, luctus a nunc. Etiam
+        gravida vehicula tellus, in imperdiet ligula euismod eget. The ceramic
+        cylinder planters come with a wooden stand to help elevate your plants
+        off the ground.
+      </p>
+      <div className="w-4/5 m-auto mt-[18px] flex flex-col gap-[5px]">
+        <h2 className="font-sans font-bold text-sm ">Living Room:</h2>
+        <p className="font-sans font-normal text-sm m-auto text-gray-400">
+          The ceramic cylinder planters come with a wooden stand to help elevate
+          your plants off the ground. The ceramic cylinder planters come with a
+          wooden stand to help elevate your plants off the ground. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div className="w-4/5 m-auto mt-[18px] flex flex-col gap-[5px]">
+        <h2 className="font-sans font-bold text-sm ">Dining Room:</h2>
+        <p className="font-sans font-normal text-sm m-auto text-gray-400">
+          The benefits of houseplants are endless. In addition to cleaning the
+          air of harmful toxins, they can help to improve your mood, reduce
+          stress and provide you with better sleep. Fill every room of your home
+          with houseplants and their restorative qualities will improve your
+          life.
+        </p>
+      </div>
+      <div className="w-4/5 m-auto mt-[18px] flex flex-col gap-[5px]">
+        <h2 className="font-sans font-bold text-sm ">Office:</h2>
+        <p className="font-sans font-normal text-sm m-auto text-gray-400">
+          The ceramic cylinder planters come with a wooden stand to help elevate
+          your plants off the ground. The ceramic cylinder planters come with a
+          wooden stand to help elevate your plants off the ground. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div className="w-4/5 h-[40px] m-auto mt-[80px] border-b-2 border-l-emerald-950"></div>
+    </>
+  );
+};
 
-export { Navbar };
+export { Navbar, Description };
